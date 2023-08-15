@@ -4,12 +4,20 @@ import "./Card.css";
 import github from "../../images/Vector.png";
 
 const Card = (props) => {
-  const [deskImg, setDeskImg] = useState(props.img3);
+  const windowWidth = window.innerWidth;
+  const IMG=windowWidth>800?props.img3:props.img;
+  const [deskImg, setDeskImg] = useState(IMG);
+
   const changeImg=()=>{
-    setDeskImg(props.img);
+    if(windowWidth>800){
+      setDeskImg(props.img);
+    }
   }
   const resetImg=()=>{
-    setDeskImg(props.img3);
+    if(windowWidth>800){
+      setDeskImg(props.img3);
+    }
+   
   }
   const url = "https://www.google.com/";
   const mystyle = {

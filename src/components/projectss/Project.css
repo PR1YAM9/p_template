@@ -9,13 +9,38 @@
   letter-spacing: 4.8px;
   text-transform: uppercase;
 }
+.headA{
+  /* margin-top: 100px; */
+  position: relative;
+  display: flex;
+  justify-content: center;
+  color: #153D8C;
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: Anton;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 4.8px;
+}
+.responA{
+  transform: rotate(-4deg);
+  margin-top: 60px;
+  left: 0px;
+  position: absolute;
+  color: #0CA4E6;
+  font-family: 'Caveat';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 70%; /* 23.736px */
+  letter-spacing: 2px;
+}
 .subtext-project {
   top: 118%;
   left: 36.5%;
   margin-top: 0;
-
   transform: rotate(-4deg);
-
   position: absolute;
   color: #0ca4e6;
   font-family: "Caveat";
@@ -34,5 +59,11 @@
   .PM-img{
     width: 270px;
     display: revert;
+  }
+  .headA{
+    font-size: 60px;
+  }
+  .responA{
+    font-size: 30px;
   }
 }

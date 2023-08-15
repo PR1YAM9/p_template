@@ -1,84 +1,94 @@
-.card{
+.card {
     width: 611px;
     height: 245px;
     padding: 25px 80px 25px 36px;
-    font-family: 'Inter';
-}
-.card-img{
-    width:227px;
-}
-
-.card-img img{
+    font-family: "Inter";
+  }
+  .card-img {
+    width: 227px;
+  }
+  
+  .card-img img {
     width: 100%;
-    object-fit:fill;
-    object-position:center;
+    object-fit: fill;
+    object-position: center;
     position: relative;
     z-index: 2;
     right: 20%;
     top: 7%;
-}
-
-.tech{
-    border:1px solid;
-    border-radius:9px;
+  }
   
-    margin-right:5px;
+  .tech {
+    border: 1px solid;
+    border-radius: 9px;
   
-    padding-bottom:3px;
-    padding-left:8px;
-    padding-right:8px;
+    margin-right: 5px;
+  
+    padding-bottom: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
     display: inline-block;
     margin-bottom: 5px;
-}
-.card-about{
-    margin-top:30px;
-    margin-bottom:20px;
-    width:400px;
-}
-.card-title{
-    margin:4px 0px;
-    font-size:20px;
-    font-weight:bold;
-}
-.CM-mob{
+  }
+  .card-about {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 400px;
+  }
+  .card-title {
+    margin: 4px 0px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .CM-mob {
     display: none;
-}
-
-
-@media (max-width: 480px){
-    .P-card{
-        flex-direction: column-reverse;
-
+  }
+  
+  @media (max-width: 800px) {
+    .P-card {
+      align-items: center;
     }
-    .card{
-        align-self: center;
-        width: 83%;
-        height: 370px;
-        padding: 55px 45px 35px 26px;
-        font-family: 'Inter';
-    
+    .card {
+      margin-left: 47px;
+      width: auto;
+      height: 277px;
     }
-    .card-about{
-        width: fit-content;
+    .card-img{
+      width: auto;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .P-card {
+      flex-direction: column-reverse;
+    }
+    .card {
+      align-self: center;
+      width: 83%;
+      height: 370px;
+      padding: 55px 45px 35px 26px;
+      font-family: "Inter";
+    }
+    .card-about {
+      width: fit-content;
     }
     .card-img {
-        width: 302px;
-        height: 182px;
-        align-self: center;
+      width: 302px;
+      height: 182px;
+      align-self: center;
     }
-    .card-img img{
-        width: 100%;
-        object-fit:fill;
-        object-position:center;
-        top: 15%;
-        right: 0%;
-     
+    .card-img img {
+      width: 100%;
+      object-fit: fill;
+      object-position: center;
+      top: 15%;
+      right: 0%;
     }
-    .CM-desk{
-        display: none;
+    .CM-desk {
+      display: none;
     }
-    .CM-mob{
-        display: revert;
+    .CM-mob {
+      display: revert;
     }
-    
-}
+  }
+  
