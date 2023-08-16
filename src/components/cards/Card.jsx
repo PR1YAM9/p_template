@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
 import "./Card.css";
-import github from "../../images/Vector.png";
 
 const Card = (props) => {
   const windowWidth = window.innerWidth;
@@ -19,7 +18,6 @@ const Card = (props) => {
     }
    
   }
-  const url = "https://www.google.com/";
   const mystyle = {
     display: "flex",
   };
