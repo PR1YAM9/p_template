@@ -68,6 +68,7 @@
       height: 370px;
       padding: 55px 45px 35px 26px;
       font-family: "Inter";
+      margin-left: 0px;
     }
     .card-about {
       width: fit-content;
